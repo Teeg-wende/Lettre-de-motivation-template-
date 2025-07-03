@@ -20,6 +20,7 @@ Il inclut :
 ## 📂 Contenu du dépôt
 
 ├── lettre_motivation_template.tex # Le modèle principal
+
 ├── README.md # Ce fichier
 
 ---
