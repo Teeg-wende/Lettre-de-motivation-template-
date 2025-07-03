@@ -1,0 +1,42 @@
+\documentclass[12pt]{letter}
+\usepackage[utf8]{inputenc}
+\usepackage[top=1cm, bottom=1cm, left=2cm, right=2cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage[french]{babel}
+\usepackage{datetime}
+\usepackage{setspace}
+\usepackage{lipsum} % Pour générer du faux texte
+
+% Coordonnées de l'expéditeur
+\address{123 Rue de la Réussite \\ 75000 Paris \\ Tél : +33 6 12 34 56 78 \\ \href{mailto:exemple@mail.com}{exemple@mail.com}}
+
+\onehalfspacing % interligne 1.5
+
+\begin{document}
+
+\begin{letter}{Nom de l'entreprise \\ Département des Ressources Humaines \\ Adresse complète \\ Ville, Pays}
+
+\vspace{-0.7cm}
+
+\opening{Objet : Candidature à un poste en alternance – \textbf{Intitulé du poste}}
+
+Madame, Monsieur,
+
+\lipsum[1] % Paragraphe d’introduction avec faux texte
+
+\lipsum[2] % Paragraphe sur le parcours académique ou professionnel
+
+\lipsum[3] % Paragraphe sur les compétences techniques et motivation
+
+
+Je vous remercie par avance pour l’attention portée à ma candidature. Je reste à votre disposition pour un entretien afin de vous exposer plus concrètement ma motivation.
+
+\closing{Cordialement,}
+
+% Signature (optionnelle)
+\vspace{1cm}
+\signature{Prénom NOM}
+
+\end{letter}
+
+\end{document}
